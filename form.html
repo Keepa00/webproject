@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Keepa Maharjan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="academic.html">Projects</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="form.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <section>
+          <h1>Contact Form</h1>
+
+          <div class="form-container">
+            <form action="#" method="POST">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+
+              <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" />
+              </div>
+
+              <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                  <label
+                    ><input type="radio" name="gender" value="male" />
+                    Male</label
+                  >
+                  <label
+                    ><input type="radio" name="gender" value="female" />
+                    Female</label
+                  >
+                  <label
+                    ><input type="radio" name="gender" value="others" />
+                    Others</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Skills:</label>
+                <div class="checkbox-group">
+                  <label
+                    ><input type="checkbox" name="skills" value="HTML" />
+                    HTML</label
+                  >
+                  <label
+                    ><input type="checkbox" name="skills" value="CSS" />
+                    CSS</label
+                  >
+                  <label
+                    ><input type="checkbox" name="skills" value="Javascript" />
+                    JavaScript</label
+                  >
+                  <label
+                    ><input type="checkbox" name="skills" value="PHP" />
+                    PHP</label
+                  >
+                  <label
+                    ><input type="checkbox" name="skills" value="MySQL" />
+                    MySQL</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address">Address:</label>
+                <select id="address" name="address">
+                  <option value="Kathmandu">Kathmandu</option>
+                  <option value="Pokhara">Pokhara</option>
+                  <option value="Bhaktapur">Bhaktapur</option>
+                  <option value="Lalitpur">Lalitpur</option>
+                  <option value="Dhangadhi">Dhangadhi</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="additional">Additional Information:</label>
+                <input type="file" id="additional" name="additional" />
+              </div>
+
+              <div class="form-group">
+                <label>
+                  <input type="checkbox" name="terms" required /> I agree to the
+                  terms and conditions.
+                </label>
+              </div>
+
+              <div class="form-group">
+                <button type="reset" class="btn btn-secondary">Reset</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Keepa Maharjan</p>
+    </footer>
+  </body>
+</html>
